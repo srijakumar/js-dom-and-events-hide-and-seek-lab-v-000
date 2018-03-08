@@ -23,7 +23,7 @@ for (let i = 0; i <rankedLists.length; i++){
 
 
 function deepestChild() {
- let node = document.getElementById('grand-node')
+ let all = document.getElementById('grand-node')
   let nextNode = all.children[0]
 
   while (nextNode) {
