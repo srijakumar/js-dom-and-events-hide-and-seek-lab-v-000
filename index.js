@@ -20,13 +20,10 @@ for (let i = 0; i <rankedLists.length; i++){
 }
 
 
-function deepestChild(){
-  const all = document.querySelectorAll('grand-node')
-//}
 
 
-//function deepestChild() {
-  //let node = document.getElementById('grand-node')
+function deepestChild() {
+ let node = document.getElementById('grand-node')
   let nextNode = all.children[0]
 
   while (nextNode) {
